@@ -1,6 +1,9 @@
 #!/bin/bash
 
 namedir=`echo $HDFS_CONF_dfs_namenode_name_dir | perl -pe 's#file://##'`
+
+echo "Namenode name directory is: $namedir"
+
 if [ ! -d $namedir ]; then
   echo "Namenode name directory not found: $namedir"
   exit 2
