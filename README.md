@@ -1,3 +1,3 @@
 # docker-hadoop-namenode
 
-docker build --no-cache -t timveil/docker-hadoop-namenode:latest .
+docker build --no-cache -t timveil/docker-hadoop-namenode:2.8.x .
